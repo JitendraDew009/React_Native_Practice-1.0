@@ -33,13 +33,27 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
-        }}
-      />
+       <Tabs.Screen
+              name="Go to my setting"
+              options={{ title: 'Setting', tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />, }}
+            />
+            <Tabs.Screen
+              name="tab1"
+              options={{ title: 'Google Meet', tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />, }}
+            />
+            <Tabs.Screen
+              name="tab2"
+              options={{ title: 'Facebook', tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />, }}
+            />
+            <Tabs.Screen
+              name="tab3"
+              options={{ title: 'Shopping', tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />, }}
+            />
+            <Tabs.Screen
+              name="tab4"
+              options={{ title: 'Registration Page', tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />, }}
+            />
     </Tabs>
+    
   );
 }
