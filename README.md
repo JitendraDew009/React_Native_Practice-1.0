@@ -128,8 +128,8 @@ The shopping section includes:
 
 ## 👨‍💻 Author
 
-Jitendra  
-AI Engineer | React Native Developer  
+Jitendra Dewangan 
+React Native Developer  
 Building in Public 🚀  
 
 GitHub: https://github.com/JitendraDew009
